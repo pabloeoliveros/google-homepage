@@ -6,81 +6,70 @@
 
 }
 body {
-    background-color: #f1f0fa;
+    background-color: #ffffff;
 }
 
 #primero{
     float: right;
-justify-content: flex-end;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  text-align: right;
-  padding: 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: right;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0 ;
+    padding: 0 10px ;
+    float: left;
+
+}
+.laimagen{
+    text-align: center;
+    line-height: 300px;
+    
+}
+
+.laimagen>img {
+    max-width: 50%;
+
+}
+
+.estilo1{
+    flex-grow: 4;
 }
 
 .barrabusqueda{
-    display: flex;
-    position: center;
+    border: solid;
+    height: 200px;
+    width: 500px;
     margin: 0 auto;
-    height: 600px;
-    width: 600px;
-    max-width: 100%;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    top: 500px;
-    transform: translate(-50%, -50%);
-
-}
-
-.barrabusqueda, .formulariodebarra{
-width: 200px;
-max-width: 100%;
-max-height: 100%;
-margin-left: auto;
-margin-right: auto;
-line-height: 200px;
+    
 }
 
 .formulariodebarra{
-    height: 80px;
-    border-radius: 40px;
+display: flex;
+flex-direction: column;
+width: 100%;
 }
 
-li{
-    display: inline;
-    margin-right: 10px;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    float: left;
+.inserta{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 40px;
+  margin-bottom: 5rem;
+  line-height: 500px;
 }
 
-ul {
-    list-style-type: none;
+.botonclick{
+    border: 0;
     margin: 0;
-    padding: 0;
-    
-}
-a{
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 2px;
-    transition: background-size .1s;
-
-}
-
-a:hover, a:focus {
-    background-size: 0% 2px;
-}
-
-.estilo1 {
-width: 272px;
-padding-top: 109px;
-position: fixed;
-padding: 1em 3em;
-margin: 1em 25%;
+    display: block;
+    width: 150px;
+    height: 50px;
+    max-width:25%;
+    margin: 0 auto;
 }
