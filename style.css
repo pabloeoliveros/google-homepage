@@ -91,28 +91,39 @@ width: 100%;
   line-height: 500px;
 }
 
+.opciones{
+    display: block;
+    text-align: -webkit-center;
+}
 .botonclick1, .botonclick2 {
     flex-wrap: nowrap;
     flex-direction: row;
+    white-space: pre;
+    align-items: flex-start;
     float: center;
     color: rgba(19, 5, 5, 0.39);
-    border: 0;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1px solid #f2f2f2;
     display: block;
+    line-height: 27px;
     width: 150px;
     height: 35px;
     max-width:25%;
     font-size: 15px;
     border-radius: 5px 5px 5px 5px;
+    user-select: none;
 }
 
 .botonclick1 {
-    
+    /*
     margin-bottom: 120em;
     margin-left: 37em;
     margin-right: 6em;
     margin-top: ;
+    */
 }
 
 ..botonclick2{
-    
+
 }
